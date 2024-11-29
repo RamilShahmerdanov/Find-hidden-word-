@@ -10,7 +10,7 @@ function Game(){
 
    let heart =2
 
-   alert("The game is starting")
+   alert("The game is starting...")
    alert(`Your lives throughout the game : ${heart}`);
 
    while(heart>0 && hiddenword.includes("_") ){ //burda while dongusu yaradiriq , heart bitene kimi  ve "_" hiddenword a daxil olana kimi prosesi davam etdirmeyi deyrik
@@ -36,14 +36,14 @@ function Game(){
     alert(`Congratulations You Win. The correct word was : ${searchword.join("")}` )
    
     
-    let replay=confirm("Do you wand to play again ?")//burda sorguedirik ve serte uygun funksiyani cagiririq
+    let replay=confirm("Do you want to play again ?")//burda sorguedirik ve serte uygun funksiyani cagiririq
     if(replay){
         Game()
     }else{
         alert("Thank you for joining the game")
     }   
    } else{
-    alert(`Game Over ! The correct word was ${searchword.join("")}` )
+    alert(`Game Over! The correct word was ${searchword.join("")}` )
 
     let replay=confirm("Do you wand to play again ?")
 
