@@ -1,1 +1,1 @@
-# Find-hidden-word-
+# Find hidden word
